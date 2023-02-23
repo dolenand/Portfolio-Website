@@ -1,3 +1,10 @@
+/*Cover Page Background Image*/
+body {
+    background-image:url(IMG_0927.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /*Cover Page Button Style*/
 .cover {
     height: 100vh;
@@ -8,11 +15,12 @@
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
 }
-
+/*Hover effect on name*/
 .name:hover {
     color: lightseagreen;
+    
 }
-
+/*hover on profileBtn*/
 #profileBtn:hover {
     background-color: lightseagreen;
 }
@@ -63,7 +71,7 @@
     padding: 10px 15px;
     border: none;
   }
-  
+  /* dropdown button hover effect*/
   .openbtn:hover {
     color: lightseagreen;
   }
@@ -119,6 +127,9 @@ h2 {
     justify-content: center;
     flex: auto;
     font-family: 'Courier New', Courier, monospace;
+}
+h2:hover {
+    text-transform: uppercase;
 }
   /* Modal Body */
   .modal-body {
